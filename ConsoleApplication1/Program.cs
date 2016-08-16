@@ -11,10 +11,11 @@ namespace calculator
         static void Main(string[] args)
         {
 
+            shotechs.output();
 
-            Console.WriteLine("Write a number for x");
+            Console.WriteLine("Type 1st number");
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Write a number for y");
+            Console.WriteLine("Type 2nd number");
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("///////////////////////");
             Console.WriteLine("// Choose a option //");
